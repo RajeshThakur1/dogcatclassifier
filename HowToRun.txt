@@ -1,0 +1,24 @@
+How to run in Heroku
+Main file name should be app.py
+Flask instance name should be app
+        app:app
+create a new file name it as Procfile it shoul not have any extentation
+       web: gunicorn app:app
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin remoteurl
+
+git push origin master
+
+Step to push the Application from Local machine to cloud
+heroku login
+heroku create
+git remote -v
+git push heroku master
+
+=================================================================
+@Step to deploy in AWS- Elastic Binstock
+
+Step1:- Your main python file 
